@@ -12,6 +12,7 @@
       "name": "ghost",
       "description": "Auto-generates MCP tools for any website. 26x faster than screenshot-based browser automation.",
       "version": "0.1.0",
+      "strict": false,
       "source": {
         "source": "npm",
         "package": "@ghost-webmcp/mcp-server"
