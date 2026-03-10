@@ -14,8 +14,8 @@
       "version": "0.1.0",
       "category": "development",
       "source": {
-        "source": "url",
-        "url": "https://github.com/ajsai47/ghost-claude-plugin.git"
+        "source": "github",
+        "repo": "ajsai47/ghost-claude-plugin"
       },
       "homepage": "https://gotghost.io"
     }
