@@ -12,21 +12,12 @@
       "name": "ghost",
       "description": "Auto-generates MCP tools for any website. 26x faster than screenshot-based browser automation.",
       "version": "0.1.0",
-      "strict": false,
+      "category": "development",
       "source": {
-        "source": "npm",
-        "package": "@ghost-webmcp/mcp-server"
+        "source": "url",
+        "url": "https://github.com/ajsai47/ghost-claude-plugin.git"
       },
-      "mcpServers": {
-        "ghost": {
-          "command": "node",
-          "args": ["${CLAUDE_PLUGIN_ROOT}/node_modules/@ghost-webmcp/mcp-server/dist/index.js"]
-        }
-      },
-      "homepage": "https://gotghost.com",
-      "repository": "https://github.com/ajsai47/ghost",
-      "license": "MIT",
-      "keywords": ["browser", "automation", "web", "mcp", "scraping"]
+      "homepage": "https://gotghost.io"
     }
   ]
 }
